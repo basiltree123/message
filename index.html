@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name ="viewport" content= "width-device-width, initial-scale=1.0" charset="utf-8">
+    <title>Message</title>
+    <style>
+    .button{
+      background-color: rgb(255,165,0);
+      border: none;
+      padding: 15px;
+      color: rgb(255,255,255);
+      text-align: center;
+      cursor: pointer;
+      border-radius: 15px;
+      box-shadow: 0 9px rgb(100, 50, 0);
+    }
+    .button:hover{
+      background-color: rgb(251, 141, 25);
+    }
+    .button:active{
+      background-color: rgb(251, 118, 25);
+      box-shadow: 0 5px rgb(100, 100, 100);
+      transform: translateY(4px);
+    }
+    .button:focus{
+      outline:none;
+    }
+    div{
+      margin: 20px;
+    }
+    </style>
+
+  </head>
+  <body>
+<div>
+<h1>To. 강쥐 🐶</h1>
+<button class="button" onclick = "myFunction()">클릭! </button>
+<script>
+  function myFunction(){
+    alert("생일 축하해 🎁")
+  }
+</script>
+</div>
+  </body>
+</html>
